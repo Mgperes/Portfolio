@@ -8,14 +8,12 @@
 
  #menu {
    padding: 15px 0 15px 50px;
-   border: solid 5px red;
-   margin-left: 1500px;
+   justify-content: flex-end;
  }
 
 .descrição1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 40px;
-  border: 5px yellow solid ;
   padding: 0 0 0 0;
   margin: 300px 870px 0px 200px ;
 }
@@ -25,7 +23,6 @@
    font-size:200px ;
    margin: 0px 765px 0 200px;
    padding: 0 0 0 0;
-   border: 5px rgb(203, 48, 74) solid;
 
  }
 
@@ -34,27 +31,27 @@
   font-size:300px ;
   color: #ffe6c4;
   margin: 0px 280px 0 200px;
-  padding: 0px 0px 0px 0px;
-  border: 5px rgb(203, 48, 74) solid;
+  padding: 0,5px 0px 0px 0px;
+
  }
 
  .descrição2 {
   font-family: 'Libre Baskerville', serif;
   font-size: 30px;
-  border: 5px blue solid ;
-  padding: 0 0 0 500px;
+  padding: 0 20px 0 0px;
   margin: 0 590px 0 300px;
   color: rgb(64, 58, 58);
+  border: solid 5px red;
  }
 
  #conteúdo {
   border: solid 5px red;
  }
 
- #contatos {
+ .contatos {
   font-family: 'Libre Baskerville', serif;
-  font-size: 20px;
-  border: 5px orangered solid;
+  width: 90px;
+  height: 90px;
   padding: 0 0 0 0;
   margin: 0px 400px 0px 900px ;
  }
