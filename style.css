@@ -11,47 +11,46 @@
    justify-content: flex-end;
  }
 
-.descrição1 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 40px;
-  padding: 0 0 0 0;
-  margin: 300px 870px 0px 200px ;
-}
+ .descrição1 {
+   font-family: 'Libre Baskerville', serif;
+   font-size: 40px;
+   padding: 0 0 0 0;
+   margin: 300px 870px 0px 200px;
+ }
 
-.título {
+ .título {
    font-family: 'Anton', sans-serif;
-   font-size:200px ;
+   font-size: 200px;
    margin: 0px 765px 0 200px;
    padding: 0 0 0 0;
 
  }
 
  .título2 {
-  font-family: 'Anton', sans-serif;
-  font-size:300px ;
-  color: #ffe6c4;
-  margin: 0px 280px 0 200px;
-  padding: 0,5px 0px 0px 0px;
+   font-family: 'Anton', sans-serif;
+   font-size: 300px;
+   color: #ffe6c4;
+   margin: 0px 280px 0 200px;
+   padding: 0, 5px 0px 0px 0px;
 
  }
 
  .descrição2 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 30px;
-  padding: 0 20px 0 0px;
-  margin: 0 590px 0 300px;
-  color: rgb(64, 58, 58);
-  border: solid 5px red;
+   font-family: 'Libre Baskerville', serif;
+   font-size: 20px;
+   padding: 0 20px 0 0px;
+   margin: 0 590px 0 300px;
+   color: rgb(64, 58, 58);
+   border: solid 5px red;
  }
 
  #conteúdo {
-  border: solid 5px red;
+   border: solid 5px red;
  }
 
  .contatos {
-  font-family: 'Libre Baskerville', serif;
-  width: 90px;
-  height: 90px;
-  padding: 0 0 0 0;
-  margin: 0px 400px 0px 900px ;
+   width: 90px;
+   height: 90px;
+   display: flex;
+
  }
