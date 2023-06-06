@@ -3,54 +3,58 @@
  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
  Body {
-   background: #DEB887;
+  background: #DEB887;
  }
 
- #menu {
-   padding: 15px 0 15px 50px;
-   justify-content: flex-end;
+ header {
+  padding: 15px 0 15px 50px;
+  justify-content: flex-end;
  }
 
  .descrição1 {
-   font-family: 'Libre Baskerville', serif;
-   font-size: 40px;
-   padding: 0 0 0 0;
-   margin: 300px 870px 0px 200px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+  padding: 0 0 0 0;
+  margin: 300px 870px 0px 200px;
  }
 
  .título {
-   font-family: 'Anton', sans-serif;
-   font-size: 200px;
-   margin: 0px 765px 0 200px;
-   padding: 0 0 0 0;
+  font-family: 'Anton', sans-serif;
+  font-size: 200px;
+  margin: 0px 765px 0 200px;
+  padding: 0 0 0 0;
 
  }
 
  .título2 {
-   font-family: 'Anton', sans-serif;
-   font-size: 300px;
-   color: #ffe6c4;
-   margin: 0px 280px 0 200px;
-   padding: 0, 5px 0px 0px 0px;
+  font-family: 'Anton', sans-serif;
+  font-size: 300px;
+  color: #ffe6c4;
+  margin: 0px 280px 0 200px;
+  padding: 0, 5px 0px 0px 0px;
 
  }
 
  .descrição2 {
-   font-family: 'Libre Baskerville', serif;
-   font-size: 20px;
-   padding: 0 20px 0 0px;
-   margin: 0 590px 0 300px;
-   color: rgb(64, 58, 58);
-   border: solid 5px red;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  padding: 0 20px 0 0px;
+  margin: 0 590px 0 300px;
+  color: rgb(64, 58, 58);
+  border: solid 5px red;
  }
 
  #conteúdo {
-   border: solid 5px red;
+  border: solid 5px red;
  }
 
- .contatos {
-   width: 90px;
-   height: 90px;
-   display: flex;
+ #contact {
+  display: block;
+  float: right;
+  margin: 10px;
+ }
 
+ a.contatos {
+  width: 0px;
+  height: 0px;
  }
