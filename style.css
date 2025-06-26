@@ -3,100 +3,129 @@
  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
  * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
  }
 
  Body {
-  background: #B3652D;
+    background: #1d1d1d;
  }
 
  header {
-  padding: 15px 0 15px 50px;
+    padding: 15px 0 15px 50px;
  }
 
  .links {
-  padding: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
  }
 
 
  a:link {
-  color: #84380C;
-  font-family: 'Libre Baskerville', serif;
-  text-decoration: none;
+    color: #c7c7c7;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
  }
 
  a:hover {
-  color: #9B4F1D;
-  text-decoration: none;
+    color: #b4b4b4;
+    text-decoration: none;
  }
 
  a:visited {
-  color: #84380C;
-  text-decoration: none;
+    color: #c7c7c7;
+    text-decoration: none;
  }
 
  hr {
-  color: #84380C;
+    color: #c7c7c7;
  }
 
- .descrição1 {
-  color: #84380C;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 30px;
-  padding: 0 0 0 0;
-  margin: 300px 870px 0px 200px;
+ h1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+ }
+
+ .descricao1 {
+    color: #c7c7c7;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    margin: 10px 0px 0px 200px; /* Ordem: topo, direita, inferior, esquerda (sentido horário) */
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
  }
 
  #título {
-  color: c;
-  font-family: 'Anton', sans-serif;
-  font-size: 200px;
-  margin: 0px 765px 0 200px;
-  padding: 0 0 0 0;
-  z-index:0;
-  position: fixed;
+    margin:0px 0 0 300px ;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 200px;
+    z-index:0;
+    position: static;
  }
 
  #título2 {
-  font-family: 'Anton', sans-serif;
-  font-size: 300px;
-  color: #E1D9CA;
-  position: fixed;
-  top: 325px;
-  left: 205px;
-  z-index:1;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    font-family: 'Anton', sans-serif;
+    font-size: 300px;
+    color: #E1D9CA;
+    position: static;
+    top: 325px;
+    left: 205px;
+    z-index:1;
  }
 
- .descrição2 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 20px;
-  padding: 0 20px 0 0px;
-  margin: 0 590px 0 300px;
-  color: #E1D9CA;
-  position: fixed;
-  top: 900px;
-  left: 5px;
+ .descricao2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    padding: 0 20px 0 0px;
+    margin: 0 590px 0 300px;
+    color: #E1D9CA;
+    position: static;
+    top: 900px;
+    left: 5px;
  }
 
  #contact {
-  display: block;
-  float: right;
-  margin: 10px;
-  position: fixed;
-  top: 570px;
-  left: 930px;
+    display: block;
+    float: right;
+    margin: 10px;
+    position: static;
+    top: 570px;
+    left: 930px;
  }
 
  a.contatos {
-  width: 0px;
-  height: 0px;
+    width: 0px;
+    height: 0px;
  }
 
  .sobre {
-  padding: 0 0 0 0 ;
+    padding: 0 0 0 0 ;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+  
  }
 
  .titulo-seçao {
-  font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
+    color: #c7c7c7;
  }
 
+ .border {
+    display: block;
+    border-radius: 10%;
+    border-color: red;
+ }
+
+ .descricao3 {
+    color: #c7c7c7;
+ }

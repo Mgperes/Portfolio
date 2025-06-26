@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana Gonçalves | Fullstack Developer</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-pequeno">Prazer, Mariana Gonçalves</h1>
+        <h2 class="titulo-medio">fullstack</h2>
+        <h3 class="titulo-grande">developer</h3>
+    </header>
+    
+    <nav>
+        <a href="#" onclick="mostrarSecao('sobre')">Sobre mim</a>
+        <a href="#" onclick="mostrarSecao('projetos')">Projetos</a>
+        <a href="#" onclick="mostrarSecao('contatos')">Contatos</a>
+    </nav>
+    
+    <main>
+        <section id="sobre">
+            <h2><i class="fas fa-user"></i> Sobre Mim</h2>
+            <p>Desenvolvedora fullstack com 5 anos de experiência criando soluções web completas. Especializada em JavaScript, React, Node.js e bancos de dados relacionais. Apaixonada por UX/UI e desenvolvimento limpo.</p>
+        </section>
+        
+        <section id="projetos">
+            <h2><i class="fas fa-code"></i> Projetos</h2>
+            <div class="projeto">
+                <h3>E-commerce Platform</h3>
+                <p>Sistema completo com carrinho, pagamento e dashboard administrativo.</p>
+            </div>
+            <div class="projeto">
+                <h3>Task Management App</h3>
+                <p>Aplicativo de produtividade com sincronização em tempo real.</p>
+            </div>
+        </section>
+        
+        <section id="contatos">
+            <h2><i class="fas fa-envelope"></i> Contatos</h2>
+            <div class="contatos-container">
+                <a href="mailto:mariana@exemplo.com" class="contato-item">
+                    <i class="fas fa-envelope"></i> mariana@exemplo.com
+                </a>
+                <a href="https://github.com/Mgperes" target="_blank" class="contato-item">
+                    <i class="fab fa-github"></i> github.com/Mgperes
+                </a>
+                <a href="https://linkedin.com/in/marianagoncalves" target="_blank" class="contato-item">
+                    <i class="fab fa-linkedin"></i> linkedin.com/in/marianagoncalves
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="toggle-theme" onclick="alternarTema()">
+            <i class="fas fa-moon"></i>
+        </div>
+        <p>&copy; 2023 Mariana Gonçalves. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
